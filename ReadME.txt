@@ -10,3 +10,32 @@
 git remote add origin https://github.com/saadmissen/MLops-NewsClassification.git
 PS C:\Users\PMLS\Documents\MLops-NewsClassification> git branch -M main
 PS C:\Users\PMLS\Documents\MLops-NewsClassification> git push -u origin main
+
+9) Create the following Hierarchy Structure
+        MLOps_News_Classification
+        ├── MANIFEST.in
+        ├── prediction_model
+        │   ├── config
+        │   │   ├── config.py
+        │   │   └── __init__.py
+        │   ├── datasets
+        │   │   ├── __init__.py
+        │   │   ├── test.csv
+        │   │   ├── train.csv
+        │   │   ├── business_data.csv
+        │   │   ├── education_data.csv
+        │   │   ├── entertainment_data.csv
+        │   │   ├── sports_data.csv
+        │   │   └── technology_data.csv
+        │   ├── __init__.py
+        │   ├── pipeline.py
+        │   ├── predict.py
+        │   ├── processing
+        │   │   ├── data_handling.py
+        │   │   ├── __init__.py
+        │   │   └── preprocessing.py
+        │   ├── trained_models
+        │   │   ├── <placeholder for trained model>
+        │   │   └── __init__.py
+        │   └── training_pipeline.py
+        └── VERSION
